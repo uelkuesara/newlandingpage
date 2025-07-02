@@ -1,0 +1,171 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Hero section */
+  .hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px 60px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+  }
+  
+  .nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
+  }
+  
+  .hero-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    align-items: center;
+  }
+  
+  .hero-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+  }
+  
+  .hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    max-width: 450px;
+  }
+  
+  .hero-text button {
+    margin-top: 16px;
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .hero-image {
+    background-color: #6b7280;
+    width: 500px;
+    height: 250px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Info section */
+  .info-section {
+    text-align: center;
+    padding: 60px;
+  }
+  
+  .info-section h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 40px;
+  }
+  
+  .info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    color: #1F2937;
+  }
+  
+  /* Quote Section */
+  .quote-section {
+    background-color: #E5E7EB;
+    padding: 80px 60px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+  }
+  
+  .author {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 20px;
+  }
+  
+  /* Call to Action Section */
+  .cta-section {
+    background-color: white;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cta-box {
+    background-color: #3882F6;
+    color: white;
+    padding: 40px 60px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+  }
+  
+  .cta-box h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .cta-box p {
+    margin: 5px 0 0;
+    font-size: 14px;
+  }
+  
+  .cta-box button {
+    background-color: white;
+    color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
